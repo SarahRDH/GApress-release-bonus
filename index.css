@@ -3,20 +3,20 @@ html {
   font-family: "Mada", "Sans Serif";
   border: 2px solid black;
 }
-/* Should have created a div for the background and used background-image property instead of using relative/fixed postitions and z-index. I used relative/fixed because I copied/pasted from my first design. I'll fix this later.*/
+
 
 #background-logo {
   position: relative;
 }
+
 #background-logo img {
   position: fixed;
   bottom: 0px;
   right: 0px;
   top: 0px;
-  opacity: .13;
-  background-size: cover;
+  opacity: .2;
   width: 100%;
-  height: 100%;
+  height: auto;
   z-index: -1;
 }
 
@@ -99,13 +99,19 @@ button a {
   background: black;
   color: white;
 }
-/* not sure why this doesn't work- my links don't work either... */
-.social a:hover {
-  color: red;
-}
 
 .hidden {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
+
+
+
+
+
+
+
+
+
+
